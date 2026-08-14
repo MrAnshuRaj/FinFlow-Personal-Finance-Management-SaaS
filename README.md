@@ -88,7 +88,7 @@ These commands start a complete local FinFlow environment: PostgreSQL, API, fron
 ### 1. Clone and enter the project
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/MrAnshuRaj/FinFlow-Personal-Finance-Management-SaaS.git
 cd FinFlow
 ```
 
