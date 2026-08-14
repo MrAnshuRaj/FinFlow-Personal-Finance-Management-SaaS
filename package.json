@@ -1,0 +1,17 @@
+{
+  "name": "finflow",
+  "private": true,
+  "packageManager": "pnpm@10.15.0",
+  "scripts": {
+    "dev": "pnpm --parallel --filter @finflow/api --filter @finflow/web dev",
+    "build": "pnpm -r build",
+    "lint": "pnpm -r lint",
+    "typecheck": "pnpm -r typecheck",
+    "test": "pnpm --filter @finflow/api test",
+    "db:generate": "pnpm --filter @finflow/api prisma:generate",
+    "db:migrate": "pnpm --filter @finflow/api prisma:migrate",
+    "db:seed": "pnpm --filter @finflow/api prisma:seed",
+    "db:studio": "pnpm --filter @finflow/api prisma:studio"
+  },
+  "devDependencies": { "prettier": "^3.5.3", "typescript-eslint": "^8.32.0" }
+}
