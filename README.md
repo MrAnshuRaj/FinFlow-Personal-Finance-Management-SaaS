@@ -356,14 +356,20 @@ Set production values for every environment variable, especially `DATABASE_URL`,
 
 ## Screenshots
 
-Verified screenshots can be added under `docs/screenshots/`:
+All screenshots below were captured from the real local FinFlow application.
 
-```text
-dashboard-light.png
-dashboard-dark.png
-transactions.png
-analytics.png
-mobile-dashboard.png
-```
+### Financial overview
 
-No screenshots are committed automatically; add only screenshots captured from the real running application.
+![FinFlow financial overview](<docs/screenshots/Screenshot%202026-08-15%20041707.png>)
+
+### Transactions
+
+![FinFlow transactions](<docs/screenshots/Screenshot%202026-08-15%20041721.png>)
+
+### Budgets
+
+![FinFlow budgets](<docs/screenshots/Screenshot%202026-08-15%20041730.png>)
+
+### Landing page
+
+![FinFlow landing page](<docs/screenshots/Screenshot%202026-08-15%20042337.png>)
